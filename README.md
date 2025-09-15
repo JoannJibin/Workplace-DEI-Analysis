@@ -2,12 +2,29 @@
 
 ## Overview
 
-This project performs a comprehensive Diversity, Equity, and Inclusion (DEI) analysis of workplace survey data. The goal is to understand employee experiences across **Diversity**, **Engagement**, and **Inclusion** dimensions and generate insights that can inform organizational DEI initiatives.
+This project performs a comprehensive Diversity, Equity, and Inclusion (DEI) analysis of workplace survey data. The goal is to understand employee experiences across **Diversity**, **Engagement**, and **Inclusion** dimensions in the workplace.
 
 The analysis includes:
 - Cleaning and preprocessing employee and survey data using **Python**.
 - Creating structured tables for SQL analysis.
 - Writing SQL queries to explore employee demographics, survey responses, and sentiment scores.
+
+---
+
+## What is DEI and its Relation to ESG
+
+**Diversity, Equity, and Inclusion (DEI)** refers to organizational efforts and policies that promote representation, fairness, and belonging for all employees, regardless of their backgrounds or identities. DEI initiatives ensure that workplaces are inclusive, equitable, and reflect a diverse workforce.
+
+**DEI and ESG: The Social Pillar**
+
+ESG stands for **Environmental, Social, and Governance**—a framework used to evaluate an organization’s sustainability and ethical impact. DEI is a core component of the **Social** pillar in ESG. The Social pillar encompasses a company’s relationships with its employees, customers, suppliers, and communities. DEI initiatives directly contribute to this pillar by:
+
+- Fostering fair and equitable treatment of employees.
+- Promoting diverse representation across the organization.
+- Improving employee engagement, well-being, and retention.
+- Reducing discrimination and bias in the workplace.
+
+Organizations with strong DEI practices are seen as socially responsible, which enhances their ESG profile and can positively impact reputation, compliance, and overall business performance.
 
 ---
 
@@ -37,7 +54,7 @@ DEI PROJECT/
 
 1. **employees**
    - Columns:  
-     `employee_id`, `name`, `surname`, `division`, `manager`, `gender`, `sexual_orientation`, `LGBTQ`, `indigenous`, `ethnicity`, `disability`, `minority`, `veteran`, `date_of_birth`, `age`, `preferred_name`, `nationality`, `hobbies`, `pronouns`, `mobile_number`, `email`
+     `employee_id`, `name`, `surname`, `division`, `manager`, `gender`, `sexual_orientation`, `LGBTQ`, `indigenous`, `ethnicity`, `disability`, `minority`, `veteran`, `date_of_birth`, `age`, `preferred_language`
    - Contains demographic and personal details of employees.
 
 2. **questions**
@@ -113,3 +130,17 @@ DEI PROJECT/
 - Cleaned and structured DEI survey dataset.
 - SQL queries to explore workforce diversity, inclusion, and engagement insights.
 - Ready-to-use repository for DEI auditors or analysts to generate actionable insights.
+
+---
+
+## Author
+
+**Joann Jibin**  
+GitHub: [JoannJibin](https://github.com/JoannJibin)
+
+---
+
+## Collaboration
+
+If you are interested in contributing, collaborating, or sharing feedback, feel free to open an issue or reach out via GitHub!  
+Let’s work together to make workplace analytics more insightful and impactful.
